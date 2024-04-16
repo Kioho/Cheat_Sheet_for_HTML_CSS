@@ -15,20 +15,27 @@ h1 {
     font-size: 60px;
 }
 
-th {
-    padding: 50px;
-    margin: 50px;
-    font-size: 30px;
-    border: 10px solid black;
-}
-
 td {
-    padding: 30px;
-    margin: 30px;
     font-size: 18px;
-    border: 10px hidden black;
+    border: 10px hidden;
 }
 
-.column-1 {
+.row-1 {
+    border-bottom: 3px solid black;
+    font-size: 50px;
+}
+
+.row-2 {
+    padding: 10px 0;
+    border-right: 3px solid black;
+}
+
+section {
     border: 10px solid black;
+}
+
+.mega-big-font {
+    font-size: 100px;
+    color: blue;
+    background-color: black;
 }
